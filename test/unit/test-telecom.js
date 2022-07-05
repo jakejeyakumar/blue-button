@@ -2,7 +2,7 @@
 
 var fs = require('fs');
 
-var bbxml = require("@amida-tech/blue-button-xml");
+var bbxml = require("@jakejeyakumar/blue-button-xml");
 var shared = require('../../lib/parser/common/shared');
 
 describe('telecom unit tests', function () {

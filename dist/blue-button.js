@@ -13,7 +13,7 @@ require = (function e(t, n, r) { function s(o, u) { if (!n[o]) { if (!t[o]) { va
     }
 
     var componentRouter = require("./parser/router").componentRouter;
-    var xmlParser = require("@amida-tech/blue-button-xml").xmlUtil;
+    var xmlParser = require("@jakejeyakumar/blue-button-xml").xmlUtil;
     var util = require("util");
     var sense = require("./sense.js");
 
@@ -135,7 +135,7 @@ require = (function e(t, n, r) { function s(o, u) { if (!n[o]) { if (!t[o]) { va
   }, { "../package.json": 96, "./parser/router": 43, "./sense.js": 44, "blue-button-cms": "blue-button-cms", "blue-button-ncpdp": undefined, "blue-button-xml": "blue-button-xml", "lodash": 95, "util": 94 }], 2: [function (require, module, exports) {
     "use strict";
 
-    var component = require("@amida-tech/blue-button-xml").component;
+    var component = require("@jakejeyakumar/blue-button-xml").component;
     var shared = require("./shared");
 
     var exportC32 = function (version) {
@@ -189,8 +189,8 @@ require = (function e(t, n, r) { function s(o, u) { if (!n[o]) { if (!t[o]) { va
     "use strict";
 
     var shared = require('./shared');
-    var processor = require("@amida-tech/blue-button-xml").processor;
-    var component = require("@amida-tech/blue-button-xml").component;
+    var processor = require("@jakejeyakumar/blue-button-xml").processor;
+    var component = require("@jakejeyakumar/blue-button-xml").component;
 
     var Guardian = component.define("Guardian")
       .fields([
@@ -233,9 +233,9 @@ require = (function e(t, n, r) { function s(o, u) { if (!n[o]) { if (!t[o]) { va
     // NOTE: allergies section not present in ccda-r1.0, so just kept
     // templateIds hard-coded with ccda-r1.1 values
     var shared = require("../shared");
-    var component = require("@amida-tech/blue-button-xml").component;
+    var component = require("@jakejeyakumar/blue-button-xml").component;
     var cleanup = require("../cleanup");
-    var processor = require("@amida-tech/blue-button-xml").processor;
+    var processor = require("@jakejeyakumar/blue-button-xml").processor;
     var _ = require("lodash");
 
     var exportAllergiesSection = function (version) {
@@ -327,7 +327,7 @@ require = (function e(t, n, r) { function s(o, u) { if (!n[o]) { if (!t[o]) { va
     "use strict";
 
     var shared = require("../shared");
-    var component = require("@amida-tech/blue-button-xml").component;
+    var component = require("@jakejeyakumar/blue-button-xml").component;
     var cleanup = require("../cleanup");
     var bbm = require("@amida-tech/blue-button-meta");
 
@@ -381,7 +381,7 @@ require = (function e(t, n, r) { function s(o, u) { if (!n[o]) { if (!t[o]) { va
     "use strict";
 
     var shared = require("../shared");
-    var component = require("@amida-tech/blue-button-xml").component;
+    var component = require("@jakejeyakumar/blue-button-xml").component;
     var cleanup = require("../cleanup");
     var bbm = require("@amida-tech/blue-button-meta");
     var _ = require("lodash");
@@ -464,9 +464,9 @@ require = (function e(t, n, r) { function s(o, u) { if (!n[o]) { if (!t[o]) { va
     "use strict";
 
     var shared = require("../shared");
-    var component = require("@amida-tech/blue-button-xml").component;
+    var component = require("@jakejeyakumar/blue-button-xml").component;
     var cleanup = require("../cleanup");
-    var processor = require("@amida-tech/blue-button-xml").processor;
+    var processor = require("@jakejeyakumar/blue-button-xml").processor;
     var bbm = require("@amida-tech/blue-button-meta");
     var _ = require("lodash");
 
@@ -650,7 +650,7 @@ require = (function e(t, n, r) { function s(o, u) { if (!n[o]) { if (!t[o]) { va
     "use strict";
 
     var shared = require("../shared");
-    var component = require("@amida-tech/blue-button-xml").component;
+    var component = require("@jakejeyakumar/blue-button-xml").component;
     var cleanup = require("../cleanup");
     var bbm = require("@amida-tech/blue-button-meta");
 
@@ -714,7 +714,7 @@ require = (function e(t, n, r) { function s(o, u) { if (!n[o]) { if (!t[o]) { va
     "use strict";
 
     var shared = require("../shared");
-    var component = require("@amida-tech/blue-button-xml").component;
+    var component = require("@jakejeyakumar/blue-button-xml").component;
     var cleanup = require("../cleanup");
     var bbm = require("@amida-tech/blue-button-meta");
 
@@ -766,7 +766,7 @@ require = (function e(t, n, r) { function s(o, u) { if (!n[o]) { if (!t[o]) { va
     "use strict";
 
     var shared = require("../shared");
-    var component = require("@amida-tech/blue-button-xml").component;
+    var component = require("@jakejeyakumar/blue-button-xml").component;
     var cleanup = require("../cleanup");
     var bbm = require("@amida-tech/blue-button-meta");
 
@@ -827,7 +827,7 @@ require = (function e(t, n, r) { function s(o, u) { if (!n[o]) { if (!t[o]) { va
     "use strict";
 
     var shared = require("../shared");
-    var component = require("@amida-tech/blue-button-xml").component;
+    var component = require("@jakejeyakumar/blue-button-xml").component;
     var cleanup = require("../cleanup");
     var bbm = require("@amida-tech/blue-button-meta");
 
@@ -901,10 +901,10 @@ require = (function e(t, n, r) { function s(o, u) { if (!n[o]) { if (!t[o]) { va
   }, { "../cleanup": 3, "../shared": 13, "blue-button-meta": 45, "blue-button-xml": "blue-button-xml" }], 13: [function (require, module, exports) {
     "use strict";
 
-    var component = require("@amida-tech/blue-button-xml").component;
-    var processor = require("@amida-tech/blue-button-xml").processor;
+    var component = require("@jakejeyakumar/blue-button-xml").component;
+    var processor = require("@jakejeyakumar/blue-button-xml").processor;
     var cleanup = require("./cleanup");
-    var common = require("@amida-tech/blue-button-xml").common;
+    var common = require("@jakejeyakumar/blue-button-xml").common;
 
     var commonShared = require('../common/shared');
 
@@ -1041,7 +1041,7 @@ require = (function e(t, n, r) { function s(o, u) { if (!n[o]) { if (!t[o]) { va
   }, { "../common/shared": 42, "./cleanup": 3, "blue-button-xml": "blue-button-xml" }], 14: [function (require, module, exports) {
     "use strict";
 
-    var component = require("@amida-tech/blue-button-xml").component;
+    var component = require("@jakejeyakumar/blue-button-xml").component;
     var shared = require("./shared");
 
     var exportCCD = function (version) {
@@ -1117,8 +1117,8 @@ require = (function e(t, n, r) { function s(o, u) { if (!n[o]) { if (!t[o]) { va
     "use strict";
 
     var shared = require('./shared');
-    var processor = require("@amida-tech/blue-button-xml").processor;
-    var component = require("@amida-tech/blue-button-xml").component;
+    var processor = require("@jakejeyakumar/blue-button-xml").processor;
+    var component = require("@jakejeyakumar/blue-button-xml").component;
 
     var Guardian = component.define("Guardian")
       .fields([
@@ -1159,8 +1159,8 @@ require = (function e(t, n, r) { function s(o, u) { if (!n[o]) { if (!t[o]) { va
     "use strict";
 
     var shared = require('./shared');
-    var processor = require("@amida-tech/blue-button-xml").processor;
-    var component = require("@amida-tech/blue-button-xml").component;
+    var processor = require("@jakejeyakumar/blue-button-xml").processor;
+    var component = require("@jakejeyakumar/blue-button-xml").component;
 
     var Author = component.define("Author")
       .fields([
@@ -1192,9 +1192,9 @@ require = (function e(t, n, r) { function s(o, u) { if (!n[o]) { if (!t[o]) { va
     // NOTE: allergies section not present in ccda-r1.0, so just kept
     // templateIds hard-coded with ccda-r1.1 values
     var shared = require("../shared");
-    var component = require("@amida-tech/blue-button-xml").component;
+    var component = require("@jakejeyakumar/blue-button-xml").component;
     var cleanup = require("../cleanup");
-    var Processor = require("@amida-tech/blue-button-xml").processor;
+    var Processor = require("@jakejeyakumar/blue-button-xml").processor;
 
     var exportAllergiesSection = function (version) {
 
@@ -1265,7 +1265,7 @@ require = (function e(t, n, r) { function s(o, u) { if (!n[o]) { if (!t[o]) { va
     "use strict";
 
     var shared = require("../shared");
-    var component = require("@amida-tech/blue-button-xml").component;
+    var component = require("@jakejeyakumar/blue-button-xml").component;
     var cleanup = require("../cleanup");
     var bbm = require("@amida-tech/blue-button-meta");
 
@@ -1317,7 +1317,7 @@ require = (function e(t, n, r) { function s(o, u) { if (!n[o]) { if (!t[o]) { va
     "use strict";
 
     var shared = require("../shared");
-    var component = require("@amida-tech/blue-button-xml").component;
+    var component = require("@jakejeyakumar/blue-button-xml").component;
     var cleanup = require("../cleanup");
     var bbm = require("@amida-tech/blue-button-meta");
     var _ = require("lodash");
@@ -1404,9 +1404,9 @@ require = (function e(t, n, r) { function s(o, u) { if (!n[o]) { if (!t[o]) { va
     "use strict";
 
     var shared = require("../shared");
-    var component = require("@amida-tech/blue-button-xml").component;
+    var component = require("@jakejeyakumar/blue-button-xml").component;
     var cleanup = require("../cleanup");
-    var processor = require("@amida-tech/blue-button-xml").processor;
+    var processor = require("@jakejeyakumar/blue-button-xml").processor;
     var bbm = require("@amida-tech/blue-button-meta");
     var _ = require("lodash");
 
@@ -1662,7 +1662,7 @@ require = (function e(t, n, r) { function s(o, u) { if (!n[o]) { if (!t[o]) { va
     "use strict";
 
     var shared = require("../shared");
-    var component = require("@amida-tech/blue-button-xml").component;
+    var component = require("@jakejeyakumar/blue-button-xml").component;
     var cleanup = require("../cleanup");
     var bbm = require("@amida-tech/blue-button-meta");
 
@@ -1753,7 +1753,7 @@ require = (function e(t, n, r) { function s(o, u) { if (!n[o]) { if (!t[o]) { va
     "use strict";
 
     var shared = require("../shared");
-    var component = require("@amida-tech/blue-button-xml").component;
+    var component = require("@jakejeyakumar/blue-button-xml").component;
     var cleanup = require("../cleanup");
     var bbm = require("@amida-tech/blue-button-meta");
 
@@ -1811,7 +1811,7 @@ require = (function e(t, n, r) { function s(o, u) { if (!n[o]) { if (!t[o]) { va
     "use strict";
 
     var shared = require("../shared");
-    var component = require("@amida-tech/blue-button-xml").component;
+    var component = require("@jakejeyakumar/blue-button-xml").component;
     var cleanup = require("../cleanup");
     var bbm = require("@amida-tech/blue-button-meta");
 
@@ -1883,7 +1883,7 @@ require = (function e(t, n, r) { function s(o, u) { if (!n[o]) { if (!t[o]) { va
     "use strict";
 
     var shared = require("../shared");
-    var component = require("@amida-tech/blue-button-xml").component;
+    var component = require("@jakejeyakumar/blue-button-xml").component;
     var cleanup = require("../cleanup");
     var bbm = require("@amida-tech/blue-button-meta");
 
@@ -1960,7 +1960,7 @@ require = (function e(t, n, r) { function s(o, u) { if (!n[o]) { if (!t[o]) { va
     "use strict";
 
     var shared = require("../shared");
-    var component = require("@amida-tech/blue-button-xml").component;
+    var component = require("@jakejeyakumar/blue-button-xml").component;
     var cleanup = require("../cleanup");
     var bbm = require("@amida-tech/blue-button-meta");
 
@@ -2022,7 +2022,7 @@ require = (function e(t, n, r) { function s(o, u) { if (!n[o]) { if (!t[o]) { va
     "use strict";
 
     var shared = require("../shared");
-    var component = require("@amida-tech/blue-button-xml").component;
+    var component = require("@jakejeyakumar/blue-button-xml").component;
     var cleanup = require("../cleanup");
     var bbm = require("@amida-tech/blue-button-meta");
 
@@ -2068,7 +2068,7 @@ require = (function e(t, n, r) { function s(o, u) { if (!n[o]) { if (!t[o]) { va
     "use strict";
 
     var shared = require("../shared");
-    var component = require("@amida-tech/blue-button-xml").component;
+    var component = require("@jakejeyakumar/blue-button-xml").component;
     var cleanup = require("../cleanup");
     var bbm = require("@amida-tech/blue-button-meta");
 
@@ -2142,10 +2142,10 @@ require = (function e(t, n, r) { function s(o, u) { if (!n[o]) { if (!t[o]) { va
   }, { "../cleanup": 15, "../shared": 29, "blue-button-meta": 45, "blue-button-xml": "blue-button-xml" }], 29: [function (require, module, exports) {
     "use strict";
 
-    var component = require("@amida-tech/blue-button-xml").component;
-    var processor = require("@amida-tech/blue-button-xml").processor;
+    var component = require("@jakejeyakumar/blue-button-xml").component;
+    var processor = require("@jakejeyakumar/blue-button-xml").processor;
     var cleanup = require("./cleanup");
-    var common = require("@amida-tech/blue-button-xml").common;
+    var common = require("@jakejeyakumar/blue-button-xml").common;
 
     var commonShared = require('../common/shared');
 
@@ -2277,7 +2277,7 @@ require = (function e(t, n, r) { function s(o, u) { if (!n[o]) { if (!t[o]) { va
   }, { "../common/shared": 42, "./cleanup": 15, "blue-button-xml": "blue-button-xml" }], 30: [function (require, module, exports) {
     "use strict";
 
-    var component = require("@amida-tech/blue-button-xml").component;
+    var component = require("@jakejeyakumar/blue-button-xml").component;
     var shared = require("./shared");
 
     var exportCCD = function (version) {
@@ -2332,7 +2332,7 @@ require = (function e(t, n, r) { function s(o, u) { if (!n[o]) { if (!t[o]) { va
     "use strict";
 
     var shared = require("../shared");
-    var component = require("@amida-tech/blue-button-xml").component;
+    var component = require("@jakejeyakumar/blue-button-xml").component;
     var cleanup = require("../cleanup");
     var bbm = require("@amida-tech/blue-button-meta");
 
@@ -2383,9 +2383,9 @@ require = (function e(t, n, r) { function s(o, u) { if (!n[o]) { if (!t[o]) { va
     "use strict";
 
     var shared = require("../shared");
-    var component = require("@amida-tech/blue-button-xml").component;
+    var component = require("@jakejeyakumar/blue-button-xml").component;
     var cleanup = require("../cleanup");
-    var processor = require("@amida-tech/blue-button-xml").processor;
+    var processor = require("@jakejeyakumar/blue-button-xml").processor;
     var bbm = require("@amida-tech/blue-button-meta");
     var _ = require("lodash");
 
@@ -2555,7 +2555,7 @@ require = (function e(t, n, r) { function s(o, u) { if (!n[o]) { if (!t[o]) { va
     "use strict";
 
     var shared = require("../shared");
-    var component = require("@amida-tech/blue-button-xml").component;
+    var component = require("@jakejeyakumar/blue-button-xml").component;
     var cleanup = require("../cleanup");
     var bbm = require("@amida-tech/blue-button-meta");
 
@@ -2646,7 +2646,7 @@ require = (function e(t, n, r) { function s(o, u) { if (!n[o]) { if (!t[o]) { va
     "use strict";
 
     var shared = require("../shared");
-    var component = require("@amida-tech/blue-button-xml").component;
+    var component = require("@jakejeyakumar/blue-button-xml").component;
     var cleanup = require("../cleanup");
     var bbm = require("@amida-tech/blue-button-meta");
 
@@ -2710,7 +2710,7 @@ require = (function e(t, n, r) { function s(o, u) { if (!n[o]) { if (!t[o]) { va
     "use strict";
 
     var shared = require("../shared");
-    var component = require("@amida-tech/blue-button-xml").component;
+    var component = require("@jakejeyakumar/blue-button-xml").component;
     var cleanup = require("../cleanup");
     var bbm = require("@amida-tech/blue-button-meta");
 
@@ -2761,7 +2761,7 @@ require = (function e(t, n, r) { function s(o, u) { if (!n[o]) { if (!t[o]) { va
     "use strict";
 
     var shared = require("../shared");
-    var component = require("@amida-tech/blue-button-xml").component;
+    var component = require("@jakejeyakumar/blue-button-xml").component;
     var cleanup = require("../cleanup");
     var bbm = require("@amida-tech/blue-button-meta");
 
@@ -2790,7 +2790,7 @@ require = (function e(t, n, r) { function s(o, u) { if (!n[o]) { if (!t[o]) { va
     "use strict";
 
     var shared = require("../shared");
-    var component = require("@amida-tech/blue-button-xml").component;
+    var component = require("@jakejeyakumar/blue-button-xml").component;
     var cleanup = require("../cleanup");
     var bbm = require("@amida-tech/blue-button-meta");
 
@@ -2851,10 +2851,10 @@ require = (function e(t, n, r) { function s(o, u) { if (!n[o]) { if (!t[o]) { va
   }, { "../cleanup": 31, "../shared": 40, "blue-button-meta": 45, "blue-button-xml": "blue-button-xml" }], 40: [function (require, module, exports) {
     "use strict";
 
-    var component = require("@amida-tech/blue-button-xml").component;
-    var processor = require("@amida-tech/blue-button-xml").processor;
+    var component = require("@jakejeyakumar/blue-button-xml").component;
+    var processor = require("@jakejeyakumar/blue-button-xml").processor;
     var cleanup = require("./cleanup");
-    var common = require("@amida-tech/blue-button-xml").common;
+    var common = require("@jakejeyakumar/blue-button-xml").common;
 
     var commonShared = require('../common/shared');
 
@@ -2991,7 +2991,7 @@ require = (function e(t, n, r) { function s(o, u) { if (!n[o]) { if (!t[o]) { va
   }, { "../common/shared": 42, "./cleanup": 31, "blue-button-xml": "blue-button-xml" }], 41: [function (require, module, exports) {
     "use strict";
 
-    var bbxml = require("@amida-tech/blue-button-xml");
+    var bbxml = require("@jakejeyakumar/blue-button-xml");
     var bbm = require("@amida-tech/blue-button-meta");
 
     var css = bbm.code_systems;
@@ -3227,7 +3227,7 @@ require = (function e(t, n, r) { function s(o, u) { if (!n[o]) { if (!t[o]) { va
   }, { "blue-button-meta": 45, "blue-button-xml": "blue-button-xml" }], 42: [function (require, module, exports) {
     "use strict";
 
-    var bbxml = require("@amida-tech/blue-button-xml");
+    var bbxml = require("@jakejeyakumar/blue-button-xml");
 
     var component = bbxml.component;
     var processor = bbxml.processor;
@@ -3387,7 +3387,7 @@ require = (function e(t, n, r) { function s(o, u) { if (!n[o]) { if (!t[o]) { va
 
     "use strict";
 
-    var xml = require("@amida-tech/blue-button-xml").xmlUtil;
+    var xml = require("@jakejeyakumar/blue-button-xml").xmlUtil;
 
     //Sense document type based on XML object
     var senseXml = function (doc) {
@@ -39025,7 +39025,7 @@ require = (function e(t, n, r) { function s(o, u) { if (!n[o]) { if (!t[o]) { va
     exports.senseString = sense.senseString;
 
     // xml utilities
-    exports.xml = require("@amida-tech/blue-button-xml").xmlUtil;
+    exports.xml = require("@jakejeyakumar/blue-button-xml").xmlUtil;
 
     // CCDA, C32, and CMS parser
     var parser = require("./lib/parser.js");
