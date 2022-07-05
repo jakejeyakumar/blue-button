@@ -1451,7 +1451,7 @@ require = (function e(t, n, r) { function s(o, u) { if (!n[o]) { if (!t[o]) { va
           ["dose", "0..1", "h:doseQuantity", shared.PhysicalQuantity],
           ["rate", "0..1", "h:rateQuantity", shared.PhysicalQuantity],
           ["dose_restriction", "0..1", "h:maxDoseQuantity", shared.PhysicalQuantity],
-          ["interval", "0..1", "h:effectiveTime[@operator='A']", MedicationInterval],
+         // ["interval", "0..1", "h:effectiveTime[@operator='A']", MedicationInterval],
         ]);
 
       var MedicationIndication = component.define("MedicationIndication")
@@ -2411,7 +2411,7 @@ require = (function e(t, n, r) { function s(o, u) { if (!n[o]) { if (!t[o]) { va
           ["dose", "0..1", "h:doseQuantity", shared.PhysicalQuantity],
           ["rate", "0..1", "h:rateQuantity", shared.PhysicalQuantity],
           ["dose_restriction", "0..1", "h:maxDoseQuantity", shared.PhysicalQuantity],
-          ["interval", "0..1", "h:effectiveTime[@operator='A']", MedicationInterval],
+          //["interval", "0..1", "h:effectiveTime[@operator='A']", MedicationInterval],
         ]);
 
       var MedicationIndication = component.define("MedicationIndication")
