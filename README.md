@@ -3,14 +3,11 @@ Blue Button
 
 Blue Button JavaScript library
 
-[![NPM](https://nodei.co/npm/@amida-tech/blue-button.png)](https://nodei.co/npm/@amida-tech/blue-button/)
+This is forked from @amida-tech/blue-button
 
-[![Build Status](https://travis-ci.org/amida-tech/blue-button.svg)](https://travis-ci.org/amida-tech/blue-button)
-[![Coverage Status](https://coveralls.io/repos/amida-tech/blue-button/badge.png)](https://coveralls.io/r/amida-tech/blue-button)
+Modified to use xmldom/xpath instead of libxmljs, as libxmljs is native library and having issues with deploying to different platforms.
 
-![blue-button.js](./docs/blue-button-js.png)
-
-This library is part of [blue-button](https://github.com/amida-tech/blue-button) family of parsers and provides the following functionality:
+This library is part of [blue-button] family of parsers and provides the following functionality:
 
 - Parse XML documents
 - Sense type of data (CCDA, CMS, C32, etc.)
@@ -21,11 +18,13 @@ This library is part of [blue-button](https://github.com/amida-tech/blue-button)
 - Parse CMS into JSON representation
 - Generate JSON object based on data model
 
+
 Actual implementation of sensing type of data and parsing CCDA and C32 reside in this repository.  Implementation of other functionalities reside in 
-- [blue-button-xml](https://github.com/amida-tech/blue-button-xml) provides XML parsing infrastructure
+Depends on the following:
 - [blue-button-cms](https://github.com/amida-tech/blue-button-cms) provides CMS parsing
 - [blue-button-model](https://github.com/amida-tech/blue-button-model) provides data model schema and validation
 
+- [blue-button-xml](https://github.com/jakejeyakumar/blue-button-xml) provides XML parsing infrastructure
 In addition CCDA generation from blue-button, JSON objects is available in [blue-button-generate](https://github.com/amida-tech/blue-button-generate).
 
 ## Quick up and running guide

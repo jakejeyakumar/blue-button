@@ -8,7 +8,7 @@ exports.senseXml = sense.senseXml;
 exports.senseString = sense.senseString;
 
 // xml utilities
-exports.xml = require("@amida-tech/blue-button-xml").xmlUtil;
+exports.xml = require("@jakejeyakumar/blue-button-xml").xmlUtil;
 
 // CCDA, C32, and CMS parser
 var parser = require("./lib/parser.js");

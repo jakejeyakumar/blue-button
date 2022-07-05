@@ -1,41 +1,25 @@
 {
-  "name": "@amida-tech/blue-button",
+  "name": "@jakejeyakumar/blue-button",
   "version": "1.10.7",
   "description": "Blue Button (CCDA, C32, CMS) to JSON Parser.",
   "main": "./index.js",
   "directories": {
-    "doc": "doc",
-    "lib": "lib"
+    "doc": "docs",
+    "example": "example",
+    "lib": "lib",
+    "test": "test"
   },
   "scripts": {
     "test": "grunt"
   },
   "author": "Dmitry Kachaev <dmitry@amida-tech.com>",
   "contributors": [
-    {
-      "name": "Matthew McCall",
-      "email": "matt@amida-tech.com"
-    },
-    {
-      "name": "Afsin Ustundag",
-      "email": "afsin.ustundag@us.pwc.com"
-    },
-    {
-      "name": "Jacob Sachs",
-      "email": "jacob@amida-tech.com"
-    },
-    {
-      "name": "Matt Martz",
-      "email": "matt.martz@amida-tech.com"
-    },
-    {
-      "name": "Christopher Best",
-      "email": "christopher@amida-tech.com"
-    },
-    {
-      "name": "Marc Sylvestre",
-      "email": "marc.sylvestre@manhydra.com"
-    }
+    "Matthew McCall <matt@amida-tech.com>",
+    "Afsin Ustundag <afsin.ustundag@us.pwc.com>",
+    "Jacob Sachs <jacob@amida-tech.com>",
+    "Matt Martz <matt.martz@amida-tech.com>",
+    "Christopher Best <christopher@amida-tech.com>",
+    "Marc Sylvestre <marc.sylvestre@manhydra.com>"
   ],
   "license": "Apache-2.0",
   "engines": {
@@ -45,15 +29,15 @@
     "@amida-tech/blue-button-cms": "^1.5.5",
     "@amida-tech/blue-button-meta": "^1.7.3",
     "@amida-tech/blue-button-model": "^1.10.3",
-    "@amida-tech/blue-button-xml": "^1.8.4",
+    "@jakejeyakumar/blue-button-xml": "^1.8.4",
     "lodash": "^4.17.21",
     "winston": "^3.7.2"
   },
   "devDependencies": {
     "brfs": "^2.0.2",
     "grunt": "^1.5.3",
-    "grunt-contrib-jshint": "^3.2.0",
     "grunt-contrib-connect": "^3.0.0",
+    "grunt-contrib-jshint": "^3.2.0",
     "grunt-contrib-watch": "^1.1.0",
     "grunt-jsbeautifier": "^0.2.13",
     "grunt-run": "^0.8.1",
@@ -61,7 +45,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/amida-tech/blue-button.git"
+    "url": "git+https://github.com/jakejeyakumar/blue-button.git"
   },
   "keywords": [
     "bluebutton",
@@ -73,7 +57,7 @@
     "C32"
   ],
   "bugs": {
-    "url": "https://github.com/amida-tech/blue-button/issues"
+    "url": "https://github.com/jakejeyakumar/blue-button/issues"
   },
-  "homepage": "https://github.com/amida-tech/blue-button"
+  "homepage": "https://github.com/jakejeyakumar/blue-button"
 }
